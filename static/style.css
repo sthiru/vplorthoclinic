@@ -1,0 +1,76 @@
+body {
+    font-family: 'Verdana', sans-serif;
+    margin: 0;
+}
+
+a {
+    color: #4a8b8f;
+}
+
+a:hover {
+    color: #5fa8ad;
+}
+
+/* Pastel blue-green theme colors */
+.bg-pastel-blue-green {
+    background-color: #a8d5ba !important;
+}
+
+.bg-pastel-teal {
+    background-color: #7fb3b3 !important;
+}
+
+.bg-pastel-dark-teal {
+    background-color: #5f9ea0 !important;
+}
+
+/* Custom header styles */
+.header-main {
+    background-color: #5f9ea0 !important;
+}
+
+.header-main .logo {
+    background: #fff;
+    color: #5f9ea0;
+    width: 50px;
+    height: 50px;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    font-size: 24px;
+}
+
+.header-logo-link {
+    text-decoration: none;
+    color: inherit;
+}
+
+.header-logo-link:hover {
+    color: #e0f2f1;
+}
+
+/* Navbar background color */
+.header-main {
+    background-color: #4a8b8f !important;
+}
+
+/* Content padding for fixed navbar */
+.content-wrapper {
+    padding-top: 70px;
+}
+
+/* Blog category badges */
+.badge-surgery-case {
+    background-color: #5f9ea0 !important;
+}
+
+.badge-awareness {
+    background-color: #7fb3b3 !important;
+}
+
+/* Map iframe styling */
+.map-iframe {
+    border: 0;
+}
