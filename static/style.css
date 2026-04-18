@@ -74,3 +74,36 @@ a:hover {
 .map-iframe {
     border: 0;
 }
+
+/* Blog image styling */
+.blog-post img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 10px 0;
+    border-radius: 8px;
+    width: 100%;
+    object-fit: cover;
+    max-height: 300px;
+}
+
+/* Blog text truncation */
+.blog-excerpt {
+    display: -webkit-box;
+    -webkit-line-clamp: 4;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    line-height: 1.5;
+    max-height: 6em; /* 4 lines * 1.5 line-height */
+}
+
+.blog-excerpt-short {
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    line-height: 1.5;
+    max-height: 4.5em; /* 3 lines * 1.5 line-height */
+}
